@@ -1,0 +1,64 @@
+/*
+	Plugin: MP Post Navigation - Stylesheet
+	Version: 1.0
+	Author: Benjamin Oliveira
+	Author URI: https://manipovore.com
+*/
+
+/* Container
+------------------------------------------------------------ */
+.mpn-container {
+	display: flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+/* Prev & Next Links Style
+------------------------------------------------------------ */
+#mpn-nextpost,
+#mpn-prevpost {
+	display: flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	width: 50%;
+	margin: 15px 0 15px;
+}
+#mpn-nextpost {
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+#mpn-prevpost {
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+#mpn-nextpost a,
+#mpn-prevpost a {
+	color: #999;
+	padding-top: 15px;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	font-size: 0.75em;
+	width: 120px;
+	height: 150px;
+	position: relative;
+	text-align: center;
+}
+#mpn-nextpost span,
+#mpn-prevpost span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-size: 8.4em;
+
+}
+#mpn-nextpost a:hover,
+#mpn-prevpost a:hover {
+	color: #666;
+	text-decoration: none;
+	transition: 1s;
+}
