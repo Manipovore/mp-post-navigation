@@ -1,8 +1,16 @@
 === MP Post Navigation ===
 
-Tags: single post, navigation, browse, next, previous, next post, previous post, style, category
+Author: Manipovore
+Author URI: https://manipovore.com
+Plugin URI: https://manipovore.com/labo/mp-post-navigation-same-category/
+Donate link: https://manipovore.com/dons/
+
+Tags: single post, navigation, nav, browse, next, previous, next post, previous post, same, within, category
 Requires at least: 4.0.0
-Tested up to: 4.6.1
+Tested up to: 4.7.1
+Stable tag: 2.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 The plugin adds navigation links between articles of same category. Optimized for responsive, SEO and ergonomics.
 
@@ -25,3 +33,8 @@ Text links are useful for SEO and << - >> add ergonomics and design. It is optim
 == Changelog ==
 = 1.0 =
 * Initial release
+= 2.0 =
+* Change function "get_next/previous_post_link" -> get_next/previous_post
+* If the title is too long, a php function is triggered to truncate the text
+* Inversion of chevron/text
+* Customization CSS

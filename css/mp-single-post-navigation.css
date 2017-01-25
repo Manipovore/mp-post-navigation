@@ -1,6 +1,6 @@
 /*
 	Plugin: MP Post Navigation - Stylesheet
-	Version: 1.0
+	Version: 2.0
 	Author: Benjamin Oliveira
 	Author URI: https://manipovore.com
 */
@@ -37,28 +37,23 @@
 }
 #mpn-nextpost a,
 #mpn-prevpost a {
-	color: #999;
-	padding-top: 15px;
-	border-top: 1px dotted #ccc;
-	border-bottom: 1px dotted #ccc;
-	font-size: 0.75em;
+	padding-bottom: 15px;
+	font-size: 0.95em;
 	width: 120px;
-	height: 150px;
-	position: relative;
+	height: auto;
 	text-align: center;
 }
 #mpn-nextpost span,
 #mpn-prevpost span {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	font-size: 8.4em;
-
+	display: block;
+	font-size: 5em;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(106,107,107,1) 46%, rgba(255,255,255,0) 67%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(106,107,107,1) 46%,rgba(255,255,255,0) 67%);
+	background: radial-gradient(ellipse at center, rgba(106,107,107,1) 46%,rgba(255,255,255,0) 67%);
 }
 #mpn-nextpost a:hover,
 #mpn-prevpost a:hover {
-	color: #666;
+	color: rgba(0, 0, 0, 0.38);
 	text-decoration: none;
 	transition: 1s;
 }
